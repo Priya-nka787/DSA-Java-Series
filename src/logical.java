@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
-
 public class logical {
+    static void main() {
+       boolean completedDSA = true;
+       boolean completedCore = false;
+
+        System.out.println(completedDSA && completedCore);
+        System.out.println(completedDSA || completedCore);
+        System.out.println(!completedCore);
+    }
 }
